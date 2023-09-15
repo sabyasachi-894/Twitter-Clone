@@ -31,7 +31,7 @@ const Navbar = () => {
               "Home"
             )}
           </h2>
-          <StarBorderPurple500Icon />
+          {/* <StarBorderPurple500Icon /> */}
         </div>
       </div>
 
