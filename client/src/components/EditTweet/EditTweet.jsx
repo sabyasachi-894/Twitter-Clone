@@ -25,7 +25,7 @@ const EditTweet = ({ tweet, setOpen }) => {
             id: currentUser._id,
             description: editText,
           });
-          
+          window.location.reload(false);
         }catch (err) {
           console.log("error", err);
         }

@@ -15,7 +15,7 @@ const connect = () => {
   mongoose
     .connect(process.env.MONGO)
     .then(() => {
-      console.log("connect to mongodb database");
+      console.log("Connected to MongoDB database");
     })
     .catch((err) => {
       throw err;

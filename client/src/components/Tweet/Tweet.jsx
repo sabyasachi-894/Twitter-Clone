@@ -74,7 +74,7 @@ const Tweet = ({ tweet, setData }) => {
       await axios.delete(`/tweets/${tweet._id}`, {
         id: currentUser._id,
       });
-      
+      window.location.reload(false);
     }catch (err) {
       console.log("error", err);
     }

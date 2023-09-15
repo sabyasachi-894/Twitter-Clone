@@ -9,6 +9,7 @@ const TimelineTweet = () => {
 
   const { currentUser } = useSelector((state) => state.user);
 
+  
   useEffect(() => {
     const fetchData = async () => {
       try {
